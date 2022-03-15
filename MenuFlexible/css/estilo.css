@@ -1,0 +1,55 @@
+*{
+    margin: 0 auto;
+}
+body{
+    width: 1200px;
+    /* margin: 0 auto; */
+    background-color: silver;
+}
+
+header{
+    background-color: cadetblue;
+}
+
+h1{
+    /* margin: 0 auto; */
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    display: block;
+    background-color: aquamarine;
+    font-size: 1.5em;
+}
+
+#menu{
+    margin: 0;
+}
+
+#menu li{
+    display: inline;
+    list-style: none;
+    padding: 0 30px;
+    margin-left: 80px;
+    border-radius: 2px;
+    background-color: azure;
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu li:hover{
+    background-color: aqua;
+}
+
+#menu #seguir{
+    background-color: salmon;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+
